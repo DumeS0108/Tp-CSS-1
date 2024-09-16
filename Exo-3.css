@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial,sans-serif;
+	text-align: center;
+}
+
+.bandeau {
+	text-align: center;
+	background-color:#00CCFF;
+	padding: 20px;
+	}
+
+div#menu-haut {
+    width:100px;
+	height:200px;
+	background-color:#66CC33;
+
+}
+div#menu-bas {
+    width:100px;
+	height:200px;
+	background-color:#CC99CC;
+}
+.contenu {
+	background-color: yellow;
+	margin-left: 200px;
+	padding: 350px;
+	}
+.pied-de-page { 
+	background-color: lightgreen;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	}
