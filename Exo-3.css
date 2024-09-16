@@ -11,17 +11,13 @@ body {
 	padding: 20px;
 	}
 
-div#menu-haut {
-    width:100px;
-	height:200px;
-	background-color:#66CC33;
-
-}
-div#menu-bas {
-    width:100px;
-	height:200px;
-	background-color:#CC99CC;
-}
+.container {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	grid-template-rows: auto 1fr;
+	gap: 10px;
+	height: calc(100vh - 120px); /* Hauteur pour tenir compte du bandeau et du pied de page */
+	}
 .contenu {
 	background-color: yellow;
 	margin-left: 200px;
