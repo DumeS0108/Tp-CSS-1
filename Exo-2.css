@@ -1,0 +1,38 @@
+div {
+    text-align: center;
+}
+div#bandeau {
+	width: 600px;
+	height: 70px;
+	background-color:#00CCFF;
+	width: 100%;
+	}
+div#contenu {
+	width:600px;
+	height: 750px;;
+	background-color: yellow;
+	width: 100%;
+	float:left;
+	.div#menu {
+		float: left;
+	}	
+}
+div#piedpage { 
+	width: 600px;
+	height: 70px;
+	background-color:#33FF99;
+	width: 100%;
+	clear:both;
+	}
+
+div#menu {
+	float:left;
+	width:100px;
+	height:400px;
+	background-color:#FF6699;
+	}
+
+	body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
