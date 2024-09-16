@@ -6,10 +6,12 @@ body {
 }
 
 .bandeau {
-	text-align: center;
-	background-color:#00CCFF;
-	padding: 20px;
-	}
+    text-align: center;
+    background-color: #00CFFF;
+    padding: 20px;
+    font-size: 1.5em;
+    color: white;
+}
 
 .container {
 	display: grid;
@@ -18,6 +20,15 @@ body {
 	gap: 10px;
 	height: calc(100vh - 120px); /* Hauteur pour tenir compte du bandeau et du pied de page */
 	}
+#menu-haut {
+	background-color: #66CC33;
+	padding: 20px;
+	height: 200px;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+
 .contenu {
 	background-color: yellow;
 	margin-left: 200px;
