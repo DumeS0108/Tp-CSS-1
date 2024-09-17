@@ -13,14 +13,14 @@ body {
     padding: 5px;
     font-size: 1.5em;
     color: white;
-    height: 10%; /* Bandeau occupe 10% de la hauteur de la fenêtre */
+    height: 10%; 
 }
 
 .container {
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 80%; /* La section centrale occupe 80% de la hauteur */
+    height: 80%; 
 }
 
 #menu-haut, #menu-bas {
@@ -51,5 +51,5 @@ body {
     background-color: lightgreen;
     text-align: center;
     padding: 5px;
-    height: 10%; /* Pied de page occupe 10% de la hauteur */
+    height: 10%; 
 }
