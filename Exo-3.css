@@ -7,68 +7,55 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.bandeau {
-    text-align: center;
-    background-color: #00CFFF;
-    padding: 5px;
-    font-size: 1.5em;
-    color: white;
-    height: 10%; 
-}
-
 .container {
     display: grid;
     grid-template-areas: 
     "bandeau bandeau bandeau"
-    "menuhaut contenu blocnews"
-    "menubas  contenu blocnews"
+    "menuhaut contenu contenu"
+    "menubas contenu contenu"
     "pieddepage pieddepage pieddepage";
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto 1fr 1fr auto;
-    height: 80%; 
+    height: 100vh; 
 }
 
-#menu-haut, #menu-bas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 5px;
+.bandeau {
+    grid-area: bandeau;
+    background-color: cyan;
+    padding: 20px;
+    text-align: center; 
 }
 
-#menu-haut {
+.menu-haut {
     background-color: #66CC33;
     grid-area: menuhaut;
-    padding: 20px;
+    padding: 10px;
 }
 
-#menu-bas {
+.menu-bas {
     background-color: #CC99CC;
     grid-area: menubas;
-    padding: 20px;
+    padding: 10px;
 }
 
 .contenu {
     grid-area: contenu;
     background-color: yellow;
-    padding: 20px;
-    overflow-y: auto ;
+    width: 100%;
 }
-.principal {
-    background-color: yellow;
-    padding: 5px;
-}
+
 .bloc-news {
-    background-color: red;
-    grid-area: blocnews;
-    padding: 20px;
-    text-align: center;
     float: right;
-    
+    background-color: red;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+   
 }
 .pied-de-page {
+    grid-area: pieddepage;
     background-color: lightgreen;
-    text-align: center;
-    padding: 5px;
-    height: 10%; 
+    padding: 20px;
+    text-align: center; 
 }
+
