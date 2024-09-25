@@ -18,7 +18,7 @@ body {
     grid-template-rows: auto 1fr 1fr auto;
     height: 100vh; 
 }
-
+    
 .bandeau {
     grid-area: bandeau;
     background-color: cyan;
