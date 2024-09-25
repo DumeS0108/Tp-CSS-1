@@ -25,4 +25,14 @@ div#contenu {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
-
+.text {
+    color: blue;
+}
+.text1 {
+    color: red;
+    height: 30px;
+}
+.text2 {
+    color: blue;
+    height: 20px;
+}
