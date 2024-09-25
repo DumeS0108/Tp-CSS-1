@@ -20,13 +20,7 @@ div#contenu {
 	width: 100%;
     text-align: center;
 	}
-div#piedpage {
-	width: 600px;
-	height: 70px;
-	background-color:#33FF99;
-	width: 100%;
-    text-align: center;
-	}
+
 .body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -34,4 +28,6 @@ div#piedpage {
 
 .text {
     text-align: left;
+    text-decoration-color: blueviolet;
+    height: 20px ;
 }
